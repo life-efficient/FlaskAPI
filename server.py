@@ -22,5 +22,5 @@ def predict():
     return 'hello' 
 
 if __name__ == '__main__':
-    app.run()#host='0.0.0.0', port=5000)
+    app.run(port=80)#host='0.0.0.0', port=5000)
 #0.0.0.0:5000/
