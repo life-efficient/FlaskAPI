@@ -18,6 +18,6 @@ import base64
 s = {
     'input': 'img'
 }
-r = requests.post('http://35.178.210.245:80/', data=json.dumps(s), headers={'content-type': 'application/json'})
+r = requests.post('http://35.178.210.245:5000/', data=json.dumps(s), headers={'content-type': 'application/json'})
 
 print(r)
