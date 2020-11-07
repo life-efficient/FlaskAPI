@@ -18,6 +18,7 @@ import base64
 s = {
     'input': 'img'
 }
-r = requests.post('http://35.178.210.245:5000/', data=json.dumps(s), headers={'content-type': 'application/json'})
+# r = requests.post('http://:5000/predict', data=json.dumps(s), headers={'content-type': 'application/json'})
+r = requests.get('http://35.178.210.245:5000/')
 
 print(r)
